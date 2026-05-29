@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Disk Scheduling Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Disk Scheduling Simulator</h1>
+
+<input type="text" id="queue" placeholder="Enter request queue (e.g. 98,183,37,122)">
+<input type="number" id="head" placeholder="Enter head position">
+
+<br><br>
+
+<select id="algo">
+    <option value="fcfs">FCFS</option>
+    <option value="sstf">SSTF</option>
+</select>
+
+<button onclick="calculate()">Run</button>
+
+<h2>Output</h2>
+<pre id="output"></pre>
+
+<script src="script.js"></script>
+
+</body>
+</html>
